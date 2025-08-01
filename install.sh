@@ -88,12 +88,10 @@ install_ubuntu_optimize() {
     
     # Clone repository
     print_status "Downloading Ubuntu Optimize Toolkit..."
-    git clone https://github.com/dipto-roy/cli_tools-for-me.git "$HOME/cli_tools"
+    git clone https://github.com/dipto-roy/ubuntu-optimize.git "$INSTALL_DIR"
     
     # Navigate to ubuntu-optimize directory
-    if [[ -d "$HOME/cli_tools/ubuntu-optimize" ]]; then
-        mv "$HOME/cli_tools/ubuntu-optimize" "$INSTALL_DIR"
-        rm -rf "$HOME/cli_tools"
+    if [[ -d "$INSTALL_DIR" ]]; then
         cd "$INSTALL_DIR"
     else
         print_error "Ubuntu Optimize Toolkit not found in repository"
@@ -129,7 +127,7 @@ install_ubuntu_optimize() {
     echo "   ./ubuntu-optimize.sh --help"
     echo ""
     print_success "Ready to optimize your Ubuntu system!"
-    print_status "Repository: https://github.com/dipto-roy/cli_tools-for-me/tree/main/ubuntu-optimize"
+    print_status "Repository: https://github.com/dipto-roy/ubuntu-optimize"
 }
 
 # Check if running as root

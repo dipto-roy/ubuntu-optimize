@@ -98,7 +98,7 @@ ${BOLD}REQUIREMENTS:${NC}
     - Internet connection (for updates)
     - Sufficient disk space for operations
 
-For more information, visit: https://github.com/dipto-roy/cli_tools-for-me/tree/main/ubuntu-optimize
+For more information, visit: https://github.com/dipto-roy/ubuntu-optimize
 EOF
 }
 

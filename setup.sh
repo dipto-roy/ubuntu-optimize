@@ -191,4 +191,4 @@ print_warning "💡 Restart your terminal or run 'source ~/.bashrc' for autocomp
 
 echo ""
 print_success "🚀 Ready to optimize your Ubuntu system!"
-print_status "Repository: https://github.com/dipto-roy/cli_tools-for-me/tree/main/ubuntu-optimize"
+print_status "Repository: https://github.com/dipto-roy/ubuntu-optimize"

@@ -2,7 +2,7 @@
 
 A comprehensive, modular CLI toolkit for Ubuntu system optimization, cleanup, and performance enhancement. Designed for Ubuntu LTS systems with safety and efficiency in mind.
 
-> **Part of CLI Tools Collection**: This toolkit is part of the [dipto-roy/cli_tools-for-me](https://github.com/dipto-roy/cli_tools-for-me) repository, which contains various useful command-line tools and utilities for system administration and development.
+> **Dedicated Repository**: This is the official repository for the Ubuntu Optimize Toolkit. Get the latest version and updates from [dipto-roy/ubuntu-optimize](https://github.com/dipto-roy/ubuntu-optimize).
 
 ## 🚀 Features
 
@@ -39,8 +39,8 @@ A comprehensive, modular CLI toolkit for Ubuntu system optimization, cleanup, an
 ### Quick Installation (Recommended)
 ```bash
 # Clone the repository
-git clone https://github.com/dipto-roy/cli_tools-for-me.git
-cd cli_tools-for-me/ubuntu-optimize
+git clone https://github.com/dipto-roy/ubuntu-optimize.git
+cd ubuntu-optimize
 
 # Make all scripts executable
 chmod +x ubuntu-optimize.sh
@@ -69,9 +69,9 @@ ubuntu-optimize --help
 ### Manual Installation
 ```bash
 # Download and extract (if git is not available)
-wget https://github.com/dipto-roy/cli_tools-for-me/archive/main.zip
+wget https://github.com/dipto-roy/ubuntu-optimize/archive/main.zip
 unzip main.zip
-cd cli_tools-for-me-main/ubuntu-optimize
+cd ubuntu-optimize-main
 
 # Make scripts executable
 chmod +x ubuntu-optimize.sh
@@ -84,7 +84,7 @@ chmod +x scripts/*.sh
 ### One-liner Installation
 ```bash
 # Quick setup with one command
-curl -fsSL https://raw.githubusercontent.com/dipto-roy/cli_tools-for-me/main/ubuntu-optimize/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/dipto-roy/ubuntu-optimize/main/install.sh | bash
 ```
 
 ### Installation Verification
@@ -430,10 +430,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/dipto-roy/cli_tools-for-me/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/dipto-roy/cli_tools-for-me/discussions)
-- **Documentation**: [Wiki](https://github.com/dipto-roy/cli_tools-for-me/wiki)
-- **Source Code**: [Ubuntu Optimize Toolkit](https://github.com/dipto-roy/cli_tools-for-me/tree/main/ubuntu-optimize)
+- **Issues**: [GitHub Issues](https://github.com/dipto-roy/ubuntu-optimize/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/dipto-roy/ubuntu-optimize/discussions)
+- **Documentation**: [Wiki](https://github.com/dipto-roy/ubuntu-optimize/wiki)
+- **Source Code**: [Ubuntu Optimize Toolkit](https://github.com/dipto-roy/ubuntu-optimize)
 
 ## 🔄 Version History
 
@@ -443,10 +443,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - All core modules implemented
 - Comprehensive documentation
 - Safety features and error handling
-- Integration with dipto-roy/cli_tools-for-me repository
+- Integration with dedicated ubuntu-optimize repository
 
 ---
 
 **⭐ If this toolkit helped optimize your Ubuntu system, please star the repository!**
 
-**🔗 Explore more tools**: Check out other useful CLI tools in the [dipto-roy/cli_tools-for-me](https://github.com/dipto-roy/cli_tools-for-me) repository.
+**🔗 Get the latest version**: Visit the official repository at [dipto-roy/ubuntu-optimize](https://github.com/dipto-roy/ubuntu-optimize) for updates and new features.
