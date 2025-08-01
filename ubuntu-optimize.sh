@@ -55,7 +55,7 @@ A comprehensive Ubuntu optimization toolkit for system cleanup,
 performance optimization, and maintenance.
 
 ${BOLD}USAGE:${NC}
-    ubuntu-optimize.sh [COMMAND] [OPTIONS]
+    ubuntu-optimize [COMMAND] [OPTIONS]
 
 ${BOLD}COMMANDS:${NC}
     ${CYAN}full${NC}              Run complete optimization (all modules)
@@ -82,10 +82,10 @@ ${BOLD}OPTIONS:${NC}
     -h, --help        Show this help message
 
 ${BOLD}EXAMPLES:${NC}
-    ubuntu-optimize.sh full              # Run complete optimization
-    ubuntu-optimize.sh clean-cache       # Clean only cache files
-    ubuntu-optimize.sh update --yes      # Update system without prompts
-    ubuntu-optimize.sh status            # Show system status
+    ubuntu-optimize full              # Run complete optimization
+    ubuntu-optimize clean-cache       # Clean only cache files
+    ubuntu-optimize update --yes      # Update system without prompts
+    ubuntu-optimize status            # Show system status
 
 ${BOLD}SAFETY:${NC}
     - All operations are designed to be safe for daily use
@@ -143,8 +143,8 @@ list_modules() {
     done
     
     echo ""
-    print_status "Run 'ubuntu-optimize.sh [module-name]' to execute a specific module"
-    print_status "Run 'ubuntu-optimize.sh full' to execute all optimization modules"
+    print_status "Run 'ubuntu-optimize [module-name]' to execute a specific module"
+    print_status "Run 'ubuntu-optimize full' to execute all optimization modules"
 }
 
 # Function to show system status

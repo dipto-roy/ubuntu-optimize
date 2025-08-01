@@ -1,0 +1,42 @@
+# Hide additional README files (keep only main README.md visible)
+README-*.md
+README_*.md
+docs/README-*.md
+
+# Hide development and testing files
+*.test
+*.tmp
+.dev/
+temp/
+testing/
+
+# Hide logs and cache
+*.log
+.cache/
+logs/
+.ubuntu-optimize-logs/
+
+# Hide personal configurations
+.personal/
+config-personal.*
+personal-*
+
+# Hide backup files
+*~
+*.bak
+*.backup
+README-backup.md
+
+# Hide IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Hide OS generated files
+.DS_Store
+Thumbs.db
+
+# Hide temporary installation files
+cli_tools/
+temp-install/
